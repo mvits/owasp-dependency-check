@@ -9,7 +9,7 @@ o) OUT=${OPTARG};;
 esac
 done
 
-DC_VERSION="latest"
+DC_VERSION="5.3.2"
 DC_DIRECTORY=$HOME/OWASP-Dependency-Check
 DC_PROJECT="dependency-check scan: $(pwd)"
 DATA_DIRECTORY="$DC_DIRECTORY/data"
